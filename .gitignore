@@ -1,0 +1,42 @@
+# === Java / Spring Boot / Maven ===
+/backend/target/
+/backend/.classpath
+/backend/.project
+/backend/.settings/
+/backend/*.iml
+/backend/logs/
+/backend/*.log
+
+# H2 database files (if using file-based DB)
+*/data/*.mv.db
+*/data/*.trace.db
+data/
+
+
+# === Node / React / Electron ===
+/frontend/node_modules/
+/frontend/build/
+/frontend/dist/
+/frontend/.env
+/frontend/.next/
+/frontend/.cache/
+/frontend/yarn.lock
+/frontend/package-lock.json
+/frontend/backend.jar
+
+# Electron build outputs
+/frontend/*.exe
+/frontend/*.app
+/frontend/*.dmg
+/frontend/*.asar
+/frontend/out/
+frontend/release/
+
+# === IDE/Editor-specific ===
+.idea/
+.vscode/
+*.iml
+
+# === OS-specific ===
+*.DS_Store
+Thumbs.db
